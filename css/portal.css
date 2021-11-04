@@ -1,10 +1,12 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #E2A8BE;
+    font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -15,6 +17,7 @@ html {
 }
 
 h1 {
+    font-family: 'Courgette', cursive;
     font-weight: normal;
     margin: auto;
     background: #fff;
@@ -37,13 +40,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#D1A080;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #BD9DEA;
+    background-color: #D1A080;
     text-decoration: none;
 }
 
