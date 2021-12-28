@@ -11,6 +11,7 @@ html {
     line-height: 1.5em;
 }
 
+
 ::selection {
     color: #000; 
     background: #ff0;
@@ -25,7 +26,7 @@ h1 {
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #ffffff;
     overflow: auto;
 }
 
@@ -53,8 +54,45 @@ a:hover {
 footer {
     clear: both;
     text-align: center;
-    padding: 1em;
+    padding: 6em;
+
 }
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 4.0;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+  }
+
+  .fa-google {
+    background: black;
+    color: #ffffff;
+  }
+
+  .contact {
+    background-color: #ffffff;
+    margin-top: 30%;
+  }
+
+
 
 /* Responsive rules */
 
@@ -112,5 +150,7 @@ footer {
     picture.profile img {
         width: 100%;
     }
+
+    
     
 }
